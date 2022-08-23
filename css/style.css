@@ -164,3 +164,31 @@
 .titlr_color{
     color: black;
 }
+#carouselExampleDark{
+    height: 240px;
+    background-color: rgb(247, 240, 240);
+}
+.carusel_icon i{
+    font-size: 50px;
+    border: 2px solid rgb(24, 185, 185);
+    padding: 20px;
+    color: rgb(24, 185, 185);
+}
+.carusel_icon{
+    padding: 60px;
+}
+.carusel_text{
+    padding: 60px;
+}
+.inline1{
+    display: grid;
+    grid-template-columns: 30px 200px;
+}
+.inline2 i{
+    color: black;
+    font-size: 20px;
+    
+
+}
+
+
