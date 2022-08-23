@@ -1,4 +1,4 @@
-.collapse{
+.collapse_left{
     margin-left: 900px;
 }
 .header{
@@ -153,4 +153,14 @@
 }
 .service p{
     margin-top: 30px;
+}
+.coll_scrul img{
+    height: 100%;
+}
+.coll_scrul i{
+    margin-right: 10px;
+    color: rgb(24, 185, 185);
+}
+.titlr_color{
+    color: black;
 }
