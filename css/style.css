@@ -102,12 +102,24 @@
 .icons_row{
     height: 250px;
 }
+
 .iped_main{
+    position: relative;
+    z-index: 1;
     width: 100%;
     height: 600px;
-    background-image: url(../Images/1574510025_1\ winter.jpg);
-    background-size: cover;
-    /* opacity: 0.3; */
+}
+.iped_main::before{
+    content:"";
+    opacity: 0.3;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url(../Images/1_669484_02-mauntin.jpg);
+    background-size:cover;
 }
 
 .unique{
@@ -123,11 +135,14 @@
 }
 .iped{
     text-align: center;
+    position: relative;
+    
 }
 .iped img{
     width: 270px;
     position: relative;
     top: 105px;
+    
    
 }
 .iphone{
@@ -246,6 +261,79 @@
     width: 100%;
     height: 100%;
 }
+.carusel_img img{
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.previus{
+    margin-left: 10px;
+    border: 1px solid black;
+    color: black;
+}
+.mauntin_img{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 600px;   
+}
+.mauntin_img::before{
+    content:"";
+    opacity: 0.3;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url(../Images/1_669484_02-mauntin.jpg);
+    background-size:cover;
+
+}
+.Happy{
+    text-align: center;
+    padding: 40px;
+}
+.line8{
+    width: 50px;
+    border-bottom: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.cont_people{
+    margin-top: 30px;
+}
+.mauntin_img img{
+    width: 100px;
+    height: 100px;
+}
+.mauntin_img i{
+    color: red;
+    font-size: 30px;
+}
+.col_line{
+    line-height: 1;
+}
+.margin_row{
+    margin-bottom: 20px;
+}
+.line9{
+    width: 50px;
+    border-bottom: 3px solid red;
+    margin-bottom: 10px;
+}
+
+
+
+
+      
+
+
+
+
+
 
 
 
