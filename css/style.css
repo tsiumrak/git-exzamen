@@ -324,7 +324,64 @@
     border-bottom: 3px solid red;
     margin-bottom: 10px;
 }
+.blog{
+    text-align: center;
+}
+.line10{
+    width: 50px;
+    border-bottom: 3px solid red;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.blog_img{
+    margin-top: 20px;
+}
+.square_img{
+    background-image: url(../Images/blog1.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+.square_img2{
+    background-image: url(../Images/blog2.webp);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+.square_img3{
+    background-image: url(../Images/blog3.jpg);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+.square{
+    width: 60px;
+    height: 70px;
+    background-color: rgb(58, 219, 219);
+    line-height: 0.2;
+    position: relative;
+    top: 170px;
+    right: 15px;
+    text-align: center;
+    padding-top: 10px;
+    color: azure;
+}
 
+.blog_img img{
+    width: 100%;
+    height: 250px;
+}
+.blog_img h6{
+    margin-top: 10px;
+}
+.eyes i{
+    color: rgb(24, 185, 185);
+}
+.eyes{
+    color: rgb(24, 185, 185);
+}
 
 
 
