@@ -289,7 +289,6 @@
     right: 0;
     background:url(../Images/1_669484_02-mauntin.jpg);
     background-size:cover;
-
 }
 .Happy{
     text-align: center;
@@ -381,6 +380,39 @@
 }
 .eyes{
     color: rgb(24, 185, 185);
+}
+.maps{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+       
+}
+.maps::before{
+    content:"";
+    opacity: 0.4;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url(../Images/maps.jpg);
+    background-size:cover;
+}
+.location{
+    text-align: center;
+    padding-top: 40px;
+
+}
+.line11{
+    width: 40px;
+    border-bottom: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.location i{
+    color: red;
 }
 
 
