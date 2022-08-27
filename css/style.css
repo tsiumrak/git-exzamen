@@ -53,9 +53,18 @@
     margin-right: auto;
     margin-bottom: 30px;
 }
-.container img{
+.cont_story img{
     width: 100%;
     height: 270px;
+}
+.cont_story img:hover{
+    opacity: 0.5;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    box-shadow: 15px 15px 0px 0;
+    color: rgb(82, 204, 204);
+    
 }
 .numbers{
     background-color: rgb(11, 158, 158);
@@ -170,6 +179,7 @@
     margin-top: 30px;
 }
 .coll_scrul img{
+    width: 100%;
     height: 100%;
 }
 .coll_scrul i{
@@ -225,7 +235,7 @@
 .logos{
     width: 100%;
     height: 150px;
-    background-color: rgba(247, 242, 242, 0.966);
+    background-color: rgb(248, 244, 244);
 }
 .logos img{
     width: 100px;
@@ -261,6 +271,7 @@
     width: 100%;
     height: 100%;
 }
+
 .carusel_img img{
     width: 120px;
     height: 120px;
@@ -414,6 +425,57 @@
 .location i{
     color: red;
 }
+.social_img i{
+    color: rgb(24, 185, 185);
+}
+.social_img i:hover{
+    font-size: 20px;
+}
+.input-group{
+    width: 100%;
+}
+.but_subscribe{
+    background-color: rgb(24, 185, 185);
+    color: azure;
+    
+    
+}
+#basic-addon2{
+    background-color: rgb(24, 185, 185);
+}
+.blog_img img{
+    width: 100%;
+    height: 110px;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 30px;
+}
+.Leaqiq{
+    color: red;
+}
+.cont_insta img{
+    width: 120px;
+    height: 80px;
+    padding: 3px;
+}
+.View a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.insta6{
+    margin-left: 15px;
+}
+.follower{
+    font-weight: bold;
+}
+
+
+
 
 
 
